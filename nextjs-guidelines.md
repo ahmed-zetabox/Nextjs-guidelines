@@ -166,7 +166,7 @@ It's noteworthy that these steps differ between the Next js **pages router** and
 
 **<ins>Meta Data</ins>**
 
-**If you use  the pages router** (which is the case for the Zetabox website), the [NextSeo npm packager](https://www.npmjs.com/package/next-seo) is excellent. From implementing standard title and description meta data to JSON-LD components, simply follow along the package documentation for your specific needs.
+**If you use  the pages router** (which is the case for the Zetabox website), the [NextSeo npm package](https://www.npmjs.com/package/next-seo) is excellent. From implementing standard title and description meta data to JSON-LD components, simply follow along the package documentation for your specific needs.
 Here's an example from our codebase:
 
 ```
