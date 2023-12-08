@@ -210,14 +210,15 @@ It is advised to add a favicon to your site, this improves SEO because Google au
 [the Next js docs](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons) provides a clear and detailed explanation.
 **For the Pages Router**
 You'll have to follow extra steps, however it is also very simple.
-- 1 Start by visiting [https://realfavicongenerator.net/](https://realfavicongenerator.net/), this is a Favicon generation tool
-- 2 Select the Favicon image that you want to use.
-- 3 Configure the settings for the different platforms (Desktop, iOS, Android Chrome...)
-- 4 Click "Generate your Favicons HTML code"
-- 5 Download the generated **Favicon package** and extract the images in the /public directory in your Next js project
-- 6 Copy the generated HTML code.
-- 7 Create a Favicon component that returns the copied code 
-- 8 Import the component in _document.js
+
+* 1 Start by visiting [https://realfavicongenerator.net/](https://realfavicongenerator.net/), this is a Favicon generation tool
+* 2 Select the Favicon image that you want to use.
+* 3 Configure the settings for the different platforms (Desktop, iOS, Android Chrome...)
+* 4 Click "Generate your Favicons HTML code"
+* 5 Download the generated **Favicon package** and extract the images in the /public directory in your Next js project
+* 6 Copy the generated HTML code.
+* 7 Create a Favicon component that returns the copied code 
+* 8 Import the component in _document.js
 
 example:
 ```
